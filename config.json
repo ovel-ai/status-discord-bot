@@ -1,0 +1,34 @@
+{
+    "settings": {
+        "maintenance": false,
+        "nodeStatus": true,
+        "autoLeave": true,
+        "anticrash": true,
+
+        "nodeStatusDelay": 60,
+
+        "guildID": "1003689743667695666",
+        "admin": ["861546992478846996"],
+        "owner": "861546992478846996",
+
+        "statusOnMaintenance": "On Maintenance mode"
+    },
+
+
+    "channelID": {
+
+        "errorLog":"1003689744967942226",
+        "welcome":"1003689744393314367",
+        "bye":"1003689744393314367",
+        "nodeStatus": "1003689744187801639"
+    },
+    
+    "bot":{
+        "token": "",
+        "prefix": "!"
+    }
+
+   
+        
+    }
+
