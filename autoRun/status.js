@@ -40,6 +40,8 @@ module.exports = async (client) => {
 
 // CONFIG STARTS HERE - Change The Emoji;s Above and the Names Below. The Names are on the .setDescription Place.
 
+// CONFIG STARTS HERE - Change The Emoji;s Above and the Names Below. The Names are on the .setDescription Place.
+
         let embed = [
             new Discord.MessageEmbed()
             .setTitle(`IP Status:`)
