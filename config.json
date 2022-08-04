@@ -29,9 +29,18 @@
     "bot":{
         "token": "",
         "prefix": "!"
-    }
+    },
 
-   
+ "Comment": "DO NOT INCLUDE `https` or `http",
+
+    "PingIP": {
+
+        "IP1":"yourip.com", 
+        "IP2":"yourip.com",
+        "IP3":"yourip.com",
+        "IP4":"yourip.com",
+        "IP5":"yourip.com"
+    }
         
     }
 
