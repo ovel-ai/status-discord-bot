@@ -30,26 +30,24 @@ module.exports = (client) => {
 
 
     client.on("guildMemberAdd", async (member) => {
-        //member.roles.add(member.guild.roles.cache.get(config.roleID.member))
+        member.roles.add(member.guild.roles.cache.get(config.roleID.member))
         member.guild.invites.fetch().then(async (newInvites) => {
             const oldInvites = invites.get(member.guild.id);
             const invite = newInvites.find(i => i.uses > oldInvites.get(i.code));
             const inviter = client.users.cache.get(invite?.inviter.id);
             const logChannel = member.guild.channels.cache.find(c => c.id === config.channelID.welcome);
 
-            welcometext = [
-    `Welcome to Cloud Network. A Place where you can get Various options of Bots and have a social life!`,
-]
+            welcometext = [ config.settings.welcomemsg ]
+
     const welembed = new Discord.MessageEmbed()
             .setTitle(`Welcome ${member.user.tag}`)
             .setDescription(`${welcometext}`)
             .addField(`**Invited by:**`, inviter ? `${inviter.tag}` : `Inviter not found`)
             .setColor('#530A8B')
             .setThumbnail(member.user.displayAvatarURL())
-            .setImage('https://cdn.discordapp.com/attachments/1001309210199457835/1003986528294408202/Add_a_subheading_13.png')
+            .setImage(config.settings)
             .setTimestamp()
             .setFooter({ text: `ID: ${member.id}`, iconURL: member.user.displayAvatarURL()})
-
 
             if(inviter){
                 logChannel.send({ embeds: [welembed] });
