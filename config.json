@@ -11,13 +11,16 @@
         "admin": ["861546992478846996"],
         "owner": "861546992478846996",
 
+        "welcomemsg": "WELCOMEMESSAGEHERE",
+        "welcomeimg": "IMAGELINKHERE",
+
         "statusOnMaintenance": "On Maintenance mode"
     },
 
 
     "channelID": {
 
-        "errorLog":"1003689744967942226",
+        "Logs":"1003689744967942226",
         "welcome":"1003689744393314367",
         "bye":"1003689744393314367",
         "nodeStatus": "1003689744187801639"

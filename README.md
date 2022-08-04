@@ -1,28 +1,15 @@
 # Status Discord Bot & Some Welcome Commands
 
-this is edited verison of the bot for luxxy hosting.
+- This is edited verison of the bot for Luxxy hosting.
 
-you're welcome to make pull requested as well.
+- You're welcome to make pull requested as well. 
 
+- [Original Repo](https://github.com/Luxxy-Hosting/host-bot)
 
-# setup:
+# Installation Steps
 
-**go to autoRun File**
-- Click on wingStatus.js
-- Edit the Things in there
-- Save File
-
-**install dependencies**
-```
-npm i
-```
-**Edit Configuration**
-self explanatory
-**run:**
-```
-npm start
-```
-
-Thanks to zachary#0842 for helping 
-
-This is the Luxxy Hosting Bot But Edited.
+- Head into `config.js` 
+   - Fill Out the Necessary Details 
+- Open up `Powershell` or `Command Prompt`
+   - Type in `npm i` to install the modules
+   - Start the bot with `node index.js`
