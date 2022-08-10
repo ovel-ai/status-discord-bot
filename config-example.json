@@ -48,17 +48,7 @@
         "IP3":"yourip.com",
         "IP4":"yourip.com",
         "IP5":"yourip.com"
-    },
-
-    "lavalink": {
-        "nodes": [
-            {
-                "host": "lavalink.oops.wtf",
-                "port": 443,
-                "password": "www.freelavalink.ga",
-                "retryDelay": 3000,
-                "secure": true
-            }
-        ]
     }
+
+    
 }
