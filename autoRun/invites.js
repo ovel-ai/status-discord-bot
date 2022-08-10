@@ -45,7 +45,7 @@ module.exports = (client) => {
             .addField(`**Invited by:**`, inviter ? `${inviter.tag}` : `Inviter not found`)
             .setColor('#530A8B')
             .setThumbnail(member.user.displayAvatarURL())
-            .setImage(config.settings)
+            .setImage(config.settings.welcomeimg)
             .setTimestamp()
             .setFooter({ text: `ID: ${member.id}`, iconURL: member.user.displayAvatarURL()})
 
